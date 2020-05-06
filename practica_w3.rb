@@ -1,6 +1,8 @@
+#Ejercicis de la semana 3, estos estan seccionados, para probar el codigo ir descomentando cada seccion.
+
 
 #Practicas con Arrays
-num =[0,1,2,3,4,5,6,7,8,9]
+# num =[0,1,2,3,4,5,6,7,8,9]
 
 #Obtener solo los pares
 # pares = num.select {|num| num.even?}
@@ -15,7 +17,7 @@ num =[0,1,2,3,4,5,6,7,8,9]
 # puts num.zip(num_reversed)
 
 #otra forma seria
-puts num.zip(num.reverse).flatten
+# puts num.zip(num.reverse).flatten
 
 #Practicas con Hash o Diccionarios
 # num = { :one => 'uno', :two => 'dos', :three => 'tres' }
@@ -111,5 +113,7 @@ puts num.zip(num.reverse).flatten
 #       @longitud_lado ** 2
 #     end
 #   end
+
+#   puts resultados = Cuadrado.create_all([1,2,3,45,6])
 
   
